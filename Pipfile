@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+docutils = "*"
+doc8 = "*"
+
+[packages]
+rst2pdf = "~=0.94.0"
+matplotlib = "~=2.2.0"
+acs-examine-student-assignment = "~=1.0"
+acs-extract-student-assignments = "~=1.0.1"
+
+[requires]
+python_version = "2.7"

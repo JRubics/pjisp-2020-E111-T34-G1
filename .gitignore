@@ -1,0 +1,10 @@
+TODO.rst
+.vscode/
+commit-message.txt
+assignment *.pdf
+assignment_packed_for_students *.tar.gz
+archives/*.tar
+extracted/
+assignment_grading.txt
+a.out
+*~
