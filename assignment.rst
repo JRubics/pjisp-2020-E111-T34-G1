@@ -31,21 +31,21 @@ Primer poziva::
 
 sa ``konverzija=0.0254``, ``jedinica=m (1 inch = 0.0254 m)`` i zadatim ulazom u datoteci ``drvo.txt``::
 
-    bukva     708
-    kesten    1181
+    bukva     712
+    kesten    1192
     bor       2362
-    lipa      1181
+    lipa      1188
     breza     1770
-    hrast     985
+    hrast     1000
 
 i očekivanim izlazom u datoteci ``visina.txt``::
 
-    bukva   18.0 m
-    kesten  30.0 m
+    bukva   18.1 m
+    kesten  30.3 m
     bor     60.0 m
-    lipa    30.0 m
+    lipa    30.2 m
     breza   45.0 m
-    hrast   25.0 m
+    hrast   25.4 m
 
     Drvo sa najvecom prosecnom visinom je: bor
 
