@@ -1,0 +1,36 @@
+m:
+  args: 0.0254 m $input_filename $output_filename
+  input: |
+    bukva     708
+    kesten    1181
+    bor       2362
+    lipa      1181
+    breza     1770
+    hrast     985
+  expected-output: |
+    bukva 18.0 m
+    kesten 30.0 m
+    bor 60.0 m
+    lipa 30.0 m
+    breza 45.0 m
+    hrast 25.0 m
+
+    Drvo sa najvecom prosecnom visinom je: bor
+
+
+ft:
+  args: 0.083 ft $input_filename $output_filename
+  input: |
+    bukva 708
+    kesten 1181
+    lipa 1181
+    breza 1770
+    hrast 985
+  expected-output: |
+    bukva 58.8 ft
+    kesten 98.0 ft
+    lipa 98.0 ft
+    breza 146.9 ft
+    hrast 81.8 ft
+
+    Drvo sa najvecom prosecnom visinom je: breza

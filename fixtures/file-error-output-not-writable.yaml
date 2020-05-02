@@ -1,0 +1,10 @@
+invalid-path:
+  args: 0.0254 m $input_filename CANT/WRITE/TO/FAKE/DIR/invalid-path.out
+  input: |
+    bukva     708  in
+    kesten    1181 in
+    bor       2362 in
+    lipa      1181 in
+    breza     1770 in
+    hrast     985  in
+  expected-returncode: 2
