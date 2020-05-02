@@ -40,11 +40,13 @@ sa ``konverzija=0.0254``, ``jedinica=m (1 inch = 0.0254 m)`` i zadatim ulazom u 
 
 i očekivanim izlazom u datoteci ``visina.txt``::
 
-    bukva     17.98 m
-    kesten    29.99 m
-    bor       59.99 m
-    lipa      29.99 m
-    breza     44.95 m
-    hrast     25.01 m
+    bukva   18.0 m
+    kesten  30.0 m
+    bor     60.0 m
+    lipa    30.0 m
+    breza   45.0 m
+    hrast   25.0 m
 
     Drvo sa najvecom prosecnom visinom je: bor
+
+Visinu zaokružiti na jednu decimalu.
