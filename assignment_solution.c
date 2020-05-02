@@ -8,7 +8,7 @@
 
 struct drvo_st {
     char naziv[MAX_NAZIV];
-    double visina;
+    unsigned visina;
 };
 
 struct visina_st {
@@ -66,7 +66,7 @@ FILE *safe_fopen(char filename[], char mode[], int error_code) {
 void ucitaj_drvo(FILE *in, struct drvo_st drvece[], int *n) {
     *n = 0;
     while(fscanf(
-        in, "%s %lf",
+        in, "%s %u",
          drvece[*n].naziv,
         &drvece[*n].visina
     ) != EOF) {

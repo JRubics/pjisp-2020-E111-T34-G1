@@ -1,5 +1,3 @@
-Test traje 120 minuta.
-
 Savetuje se upotreba alata za automatizovanu proveru kvaliteta Vašeg rešenja::
 
     ./smoke_test.pex assignment.c
@@ -7,8 +5,6 @@ Savetuje se upotreba alata za automatizovanu proveru kvaliteta Vašeg rešenja::
 
 Napomene:
 
-- programski kod mora biti snimljen u okviru home direktorijuma, na predviđenom mestu
-- nije dozvoljeno snimanje više kopija ili varijacija izvornog koda, samo jedna .c datoteka
 - program se **mora kompajlirati**, pri čemu kompajler ne sme ukazivati na upozorenja tokom kompajliranja
 - nije dozvoljeno koristiti globalne promenljive
 - organizovati kod u funkcije

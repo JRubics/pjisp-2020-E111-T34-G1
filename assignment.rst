@@ -13,14 +13,14 @@ Iz zadate ulazne datoteke učitati statički niz struktura, pri čemu se struktu
 ``drvo_st`` sastoji od sledećih polja:
 
 - naziv drveta (jedna reč, do 20 karaktera)
-- prosecna visina drveta u inch-ima (pozitivan realan broj)
+- prosecna visina drveta u inch-ima (pozitivan ceo broj)
 
 Na osnovu zadate jedinice (jedna reč, do 2 karaktera) i konverzije formirati novi
 statički niz struktura i upisati ga u zadatu izlaznu datoteku, pri čemu se
 struktura ``visina_st`` sastoji od sledećih polja:
 
 - naziv drveta (jedna reč, do 20 karaktera)
-- prosecna visina drveta u inchima (pozitivan realan broj)
+- prosecna visina (pozitivan realan broj)
 - jedinica u kojoj je izražena visina (jedna reč, do 2 karaktera)
 
 Nakon toga, u izlaznu datoteku ispisati naziv drveta koje ima najveću prosečnu visinu.
@@ -38,7 +38,7 @@ sa ``konverzija=0.0254``, ``jedinica=m (1 inch = 0.0254 m)`` i zadatim ulazom u 
     breza     1770
     hrast     985
 
-i očekivanim izlazom u datoteci ``cene.txt``::
+i očekivanim izlazom u datoteci ``visina.txt``::
 
     bukva     17.98 m
     kesten    29.99 m
